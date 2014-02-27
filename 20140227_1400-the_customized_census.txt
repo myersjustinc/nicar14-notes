@@ -1,0 +1,156 @@
+The customized Census: How to use microdata when you just can't find the right table
+http://ire.org/events-and-training/event/973/1139/
+
+Katie Genadek, Minnesota Population Center
+  Microdata vs. summary data
+    Microdata
+      Shows full range of responses for individuals
+      Enable custom tables and sophisticated analyses
+      Suppression
+        Geography
+        Truncation
+        Item level suppression
+    Summary data
+      Premade or published tables of aggregate characteristics
+      Enable examination of small geographic areas
+      Suppression
+        Limited content
+        Grouped intervals
+        Cell suppression
+
+  Benefits of using microdata
+    More detailed information than published tables
+    Easy to explore various topics
+    Answer specific questions
+    Can look at change over time
+    Run person- or household-level analyses
+    Nationally representative
+
+  IPUMS (Integrated Public Use Microdata Series, pronounced "ih-pums" because of "integrated")
+    https://usa.ipums.org/usa/
+    Collects and preserves data and coumentation
+    Harmonizes data
+    Makes it available for free
+
+  IPUMS:
+    Provides data in multiple formats
+    Provides documentation
+    Standardizes data cross years
+    Provides extra calculated fields
+    Makes data freely available online
+    Provides user support
+
+  Slightly more than 1 percent of IPUMS-USA's more than 30,000 data users are journalists
+    Growing quickly, though
+
+  Database includes public use microdata samples:
+    U.S. decennial censuses (1850 to 2000)
+    Complete-count dataset for 1880
+    Linked samples (1850 to 1930)
+    Samples from Puerto Rico (1910 to 2012)
+    American Community Survey (2000 to 2012)
+
+  American Community Survey
+    Replaced long form of decennial census
+      Demonstration stage from 2000 to 2004
+      Full implementation since 2005
+      Group quarters added 2006
+    Rolling sample design
+    Microdata samples:
+      Full survey responses for 1 percent of U.S. population
+      Includes one-year and multi-year samples
+
+  Census and ACS variable topics
+    Basic demographics
+    Marriage
+    Family structure
+    Fertility
+    Ethnicity
+    Disability
+    Education
+    Work
+    Income
+    Migration
+    Housing characteristics
+
+  Geography limitations
+    No confidentiality restrictions for samples prior to 1950
+      No geographic limitation
+    Samples from 1950 to 1970:
+      Limited and inconsitent geographic identifiers
+    Recent samples:
+      State
+      Some metropolitan areas
+      County groups
+      Public Use Microdata Areas (PUMAs)
+        Include roughly 100,000 people
+        Change over time
+          Maps are available
+
+  Online extraction system
+    Users create custom data files
+      Pick any samples or variables of interest
+    Creates custom syntax for reading the data files into SPSS, Stata, SAS and CSV
+      Labels variables and values within data
+    Codebook available
+    Record of extract is preserved on user account
+
+  Online analysis system
+    High-speed tabulation software developed at UC-Berkeley
+    Allows for analysis of microdata without statistical package
+    All analysis performed online
+    Can analyze multiple years of data
+    Help guides available online
+    Tutorials: http://www.youtube.com/user/MPCIPUMS
+
+  User support
+    User forum: http://answers.popdata.org/
+    Email: ipums@umn.edu
+
+  Other MPC data projects:
+    IPUMS-International
+      Largest collection of publicly available individual-level census data
+      Includes 74 countries
+      Samples from 1960 to present
+      Plan to process and release data for new countries each year
+    IPUMS-CPS
+      Current Population Survey
+      All March supplement data (1962 through present)
+        Most widely used CPS data
+      Basic monthly surveys
+        Samples from 1994 through 2010
+        Fewer variables than March supplement
+      Supplement data
+        Voter registration
+        Fertility
+        Veterans
+        Education
+        Food security
+        Tobacco use
+        Volunteer
+        Internet use
+    National Historical Geographic Information System
+      Summary tables for census data from 1790 through 2012
+      Can identify aggregate characteristics for smaller geographic areas (tract, block, etc.)
+      GIS boundary files available
+      Time series summary tables available
+
+Robert Gebeloff, The New York Times
+  Tips for SDA: https://usa.ipums.org/usa/sda/
+    Visualize what you want your results to look like (columns, rows), then build it with the interface.
+    Search for variables in the code book for a while, but get familiar with how the variables are organized in the collapsible list.
+  IPUMS standardizes the occupational codes that seem to change every few years at the Census Bureau.
+  IPUMS calculates confidence intervals for you, which is awesome.
+    Pay attention to these!
+    Is it OK to report something with a large confidence interval? It depends.
+      How are you portraying it? (It is an estimate.)
+      Is the trend line really bumpy?
+      Does it agree with other reporting?
+  Example: Affordable Care Act and the Medicaid gap
+    How do people below the poverty line differ between states that did and did not opt out of the Medicaid expansion?
+    Problem: Census household poverty metrics differ from health care household poverty metrics.
+      Households, mainly, are defined differently--often based on insurance dependent status.
+      State Health Access Data Assistance Center (with IPUMS) released conversion information between the two.
+    Problem: What low-income uninsured people still wouldn't be eligible for Medicaid?
+      Undocumented immigrants, mainly.
+      Pew Hispanic Center did some work on how to count this since the Census Bureau doesn't ask such things.
