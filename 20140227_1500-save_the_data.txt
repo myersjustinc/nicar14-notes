@@ -6,3 +6,5 @@ FTP old data, record layouts, etc. to NICAR for archival:
   Port: 1234
   Username: car14
   Password: 1234
+
+Interesting lists from Library of Congress on how sustainable various data formats are for archival: http://digitalpreservation.gov/formats/index.shtml
