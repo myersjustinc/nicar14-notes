@@ -1,0 +1,8 @@
+Save the data: going from zip (drive) to news by rescuing, analyzing old data
+http://ire.org/events-and-training/event/973/1164/
+
+FTP old data, record layouts, etc. to NICAR for archival:
+  sftp://data2.nicar.org
+  Port: 1234
+  Username: car14
+  Password: 1234
