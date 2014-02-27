@@ -1,0 +1,102 @@
+Enhance your stories with statistics
+http://ire.org/events-and-training/event/973/1185/
+
+Steven Rich, The Washington Post
+  P-values
+    Statistical significance level
+    Is the probability of the null hypothesis below a certain value?
+      Often 0.05 or 0.01
+    Doesn't mean the observed result isn't impossible
+      Just means it's highly unlikely
+  t-tests
+    Used to test hypotheses about means when the population variance is unknown (which is usually the case)
+    Originally developed for quality control of beer
+    Three varieties:
+      Single sample
+        One group to test against hypothetical mean
+      Independent samples
+        Two means, two groups, no relationship between them
+        People are randomly assigned to a single group
+      Dependent samples
+        Two means
+        Some relationship in how people are assigned to groups
+  ANOVA
+    Collection of methods
+    Analyze differences between group means
+    Generalize t-test to more than two groups
+    Can be done within groups or between groups
+  Fisher's exact test
+    Fun for very small data sets
+    Gives you an exact p-value
+    Great for categorical data
+  Linear regression
+    Trying to find the best-fit predictive line for a set of data
+    Remember the slope-intercept equation for a line: y = m * x + b
+      m = slope, which is useful here
+    r^2
+      How much does the independent variable predict the dependent variable?
+      More than 0.8 is crazy good
+    Only good for continuous data, not categorical
+  Logistic regression
+    Do this instead for categorical (or at least not always continuous) data
+      Gender
+      Race
+      Really handy for two groups (binary logistic regression)
+  Pearson's chi-squared
+    Observed value versus expected value
+    What does a "regular" situation look like?
+    Does something odd appear more frequently than it ought to?
+  How to avoid mistakes
+    Try to prove yourself wrong
+    Run your conclusions by your targets
+    Ask someone smarter than you
+      Ask someone who does this for a living
+        "Academics love to poke holes in things." -Rob
+    Make sure you're doing the correct test
+      You can run just about any test on just about any data set
+        Doesn't make it useful
+        http://www.ats.ucla.edu/stat/sas/whatstat/
+      Look for IRE tipsheets from:
+        Jen LaFleur
+        (\w+) Ma?cDonald
+
+Rob Barry, The Wall Street Journal
+  Don't overthink: Most of what you do will be:
+    Counting
+    Summing
+    Grouping
+    Ranking
+  Seeking the middle
+    The most descriptive element of a group of things is often found in the center
+    Mean
+      Average of a set of numbers
+      Add set together, divide by number of elements
+    Median
+      Middle element of set
+      If even number of elements, take the mean of the middle two
+    Often can write very different sentences depending on whether you use mean or median
+      Mean is sensitive to outliers, median isn't
+  Other descriptive tools
+    Quartiles
+      Median plus medians of each half
+    Correlation
+      Degree to which groups of numbers vary together
+      Ranges from -1 (numbers move in opposite directions) to +1 (numbers move in same direction)
+  Histograms
+    Count of things in equal-sized ranges in your data
+    Bar chart of distribution of values
+  Be able to quickly visualize things, even if the initial visualizations look sort of terrible
+    Useful for getting a sense of the story
+  Distribution types
+    Normal
+      Typical bell curve
+    Log-normal distribution
+      Long tail to one side
+      Distribution of logs of the values is normal
+    Cauchy distribution
+      Sort of looks like a really tall bell curve
+        (Not clear yet to me what the difference is)
+    Knowing the distribution of a set of numbers gives you more statistical options.
+  Monte Carlo simulation
+    Randomly select values from the distribution the data ought to have
+    Does what you picked match up with the data in real life?
