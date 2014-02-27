@@ -1,0 +1,361 @@
+Detecting Corporate Fraud
+http://ire.org/events-and-training/event/973/1155/
+
+Theo Francis, reporter, The Wall Street Journal
+Roddy Boyd, founder, Southern Investigative Reporting Foundation
+
+What is corporate fraud?
+  A few kinds:
+    Securities fraud: ripping off investors
+    Consumer fraud: ripping off (retail) customers
+    Tax fraud: ripping off taxpayers
+  Bottom line: Fraud boils down to saying one thing and doing another, for profit.
+
+What drives corporate fraud?
+  Greed
+  Pressure: make quarterly numbers or else
+  Incompetence: making up for mistakes
+
+Finding fraud
+  Compare what they say to what they do
+  Corporate fraud reporting is accountability reporting
+
+Caveat reporter
+  No one red flag always indicates fraud
+  Not every example that raises eyebrows amounts to fraud
+  Talk to the company
+
+Some things actually are wrong on their face
+  Like the guy who had 999,999,999,999 shares of ExxonMobil
+
+Basics: the filings
+  Key points:
+    Mostly publicly traded companies
+    Limited regulatory review
+    Disclosure, not substance
+    Dense, complex and long
+      "It's just words and numbers; you can figure it out." -Theo
+  Where to find them:
+    SEC's EDGAR database: http://1.usa.gov/1f3TpOM
+  How to use them:
+    Reynolds Center's SEC filing primers: http://bit.ly/1f3Tt0P
+
+Get a grip: the 10s
+  Primary financial and operational disclosures for established public companies
+  10-K: annual, audited, comprehensive
+  10-Q: quarterly (3x/yr), unaudited, more incremental
+
+Get a grip: other filings
+  S-1: primary filing for companies about to go public (pre-IPO)
+    Updated by multiple amendments
+  8-K: recent developments, press releases, etc.
+    Widely variable
+    May include additional information that isn't just in the press release
+
+Get a grip: key elements
+  10-K, 10-Q, S-1
+    Business
+    Risk factors
+    Litigation and regulatory developments
+  S-1
+    Capital structure
+    Origins of the company
+    Key investors
+  Proxy and S-1
+    Compensation (what gets rewarded?)
+    Beneficial ownership (major investors)
+
+Foreign companies (companies domiciled abroad with operations in the U.S.):
+  File a Form 20-F and Forms 6-F
+
+Wells notice: SEC says they intend to sue the company
+  Pay attention if these happen
+
+A lot depends on what the company counts as "material"
+
+Get a grip: what to look for
+  Late filings
+    Especially 10-K and 10-Q (NT 10-K and NT 10-Q)
+    Consider the company's explanation
+    Sometimes include statements that previous filings should not be relied on
+      This is not good.
+  Does the business make sense?
+  Has the business changed fundamentally, especially multiple times?
+
+Get a grip: What's core?
+  General Electric
+    Power turbines, jet engines, medical imaging, dishwashers, etc.
+    Half of GE's 2004 revenues and earnings came from GE Capital
+      https://app.seclive.com/#f/57cd417f
+      "Most of middle America, when they declare bankruptcy, owe money to GE Capital." -Roddy
+      "They're a credit card company with a medical imaging arm." -Roddy
+      Today it's more like 31 percent.
+
+Get a grip: next steps
+  Company website: PR but still useful
+  Press releases: BusinessWire, PR Newswire, Yahoo Finance, etc.
+  Company transcripts (Seeking Alpha's are free)
+  Former employees
+  Customers
+  Vendors
+  Investors (past and present)
+  Wayback Machine
+    Fun predictions a company showed off in 2006: http://tinyurl.com/mevqfww
+
+Who's who: Know your principals
+  People matter
+  10-K, S-1, proxy: executive and director bios
+  Proxy: insider stakes (beneficial ownership)
+  Forms 3, 4, 5: insider transactions; executives, directors and big investors
+    Complicated; get help if you're considering analyzing these
+  Schedules 13G and 13D: big investors, voting agreements
+    Who has gone above or below owning 5 percent of the company?
+    Theoretically, 13G is passive and 13D is active (in terms of attempts at control)
+      In practice, not always much difference
+    Watch out for attachments
+
+Who's who: what to look for
+  Initially, grab all of it
+    Names: people, companies, charities
+      FINRA BrokerCheck
+        Lots of people need to hold various FINRA licenses and such
+        Look for "disclosure events": mistakes, sanctions, ethics issues, etc.
+        FINRA loves helping reporters
+    Previous ventures
+    Addresses
+      Residencies, vehicle registrations, etc. in tax-friendly jurisdictions
+      Second homes, especially to help with arrest records
+      Florida lets you keep your home no matter what happens to you
+        State laws generally govern what assets may be seized
+      Sunny places with lots of rich people are red flags for investors
+        Especially Boca Raton, San Antonio, Palm Beach
+  Things that make you go "hm"
+    Resume gaps
+    Undisclosed jobs
+    Same names crop up in different roles
+      Keeping it in the family
+    Stock dips and jumps
+      Does the company like to buy lots of its own stock?
+    Repeated overpromising, underdelivery
+    Missing disclosures
+    Moving assets into spouses' and children's names, family trusts, etc.
+  More innocuous (usually)
+    Terrible jobs
+    One or two layoffs
+  Check these out
+    Education, particularly:
+      Specialized degrees/expertise
+      Attendance vs. degree
+      Diploma mills and dubious online schools
+        Oregon Department of Education keeps a list of unaccredited institutions
+    Litigation
+      Corporate
+      Personal
+      Professional
+  Don't forget help
+    Lawyers
+    PR firms
+      Especially Corbis (sp?)
+    Consultants
+    Exceptions: crisis PR firms, defense lawyers, etc.
+  Scenario: ditching the troubled founder
+    Are they really?
+    Relatives and associates
+    LLCs
+      Nevada, Michigan, Alaska, Virginia, Wyoming:
+        Creditor cannot seize a person's membership interest in the LLC
+        Person transfers management of LLC to someone else
+        Creditor tries to seize some assets, waits for LLC to distribute earnings to person
+        LLC doesn't distribute earnings, but issues an IRS K-1 because it's phantom income
+        Because creditor claims an interest in those phantom assets, LLC issues K-1 to creditor instead, so creditor owes taxes on assets they won't receive
+  Blame game
+    CEO pins operational problems on everyone else
+  Domineering CEOs
+    Surrounded by yes-men
+    Demands results without fail
+    No tolerance for dissent or missed targets
+  Culture of corruption
+    Tone at the top
+    Tangled financial and personal relationships
+      "Related party transactions"
+
+Who's who: buried treasure
+  Chesapeake Energy's disclosure at the top here:
+    http://www.compensationstandards.com/wp-cd/2009/05/chesapeake-energys-unique-disclosure.html
+  More generally, Aubrey K. McClendon, Chesapeake Energy
+
+Who's who: next steps
+  Who to background:
+    Executives
+    Directors
+    Major investors
+    Lawyers
+    PR people
+    Consultants (especially in technical industries)
+    LLCs and similar entities
+  What to check:
+    Educational institutions and degrees
+    Military
+      DD-214
+      Discharge (honorable, etc.)
+      Tours of duty
+      "Special forces"
+        Stolen Valor
+    Past jobs
+      Independent confirmation
+      Past coworkers
+    Reynolds Center on backgrounding people and businesses: http://bit.ly/1js5XOJ
+
+Ties that bind: the filings
+  Proxy: "related party transaction" section
+  10-K (sometimes an amendment or section here in lieu of proxy filing)
+  Other names
+    Related party transactions
+    Related person transactions
+    Certain transactions
+  What insiders are doing business with what other insiders?
+
+Ties that bind: what to look for
+  Main question: Why is the insider the best choice?
+  Commodity transactions
+  Confusion, dead ends, obfuscation
+  Layers of LLCs or other private companies
+    Especially if they tie back to the same people
+    Especially if those people are executives, directors or big investors
+  Company employees doing work on executives' homes
+  Exceptions:
+    Private equity investors
+      These get really complicated really quickly
+    Founders and founding families
+
+Reuters presentation on mining Chesapeake Energy filings: http://slidesha.re/1fixhPl
+
+Ties that bind: next steps
+  Location
+    What else is at that address?
+  State corporation filings
+    Secretary of state, state incorporation office, etc.
+  Legal databases
+  Court documents
+
+Nanoviricides example (http://1.usa.gov/1fTUWSJ)
+  CFO married to CEO (can't be compelled to testify)
+  CEO and chairman have large stake in major investor (TheraCour)
+  TheraCour owns all of Nanoviricide's intellectual property
+  Opaque and confusing preferred stock details between executives and the two companies
+
+DHB Industries example (http://1.usa.gov/1fTUbJ7)
+  Rents space from CEO's wife's company
+  Buys key components from CEO's wife's company
+  Leases space to CEO's wife's company
+  Sold key components to wife's company at cost
+  Chartered plane from CEO's company
+
+Measuring up
+  10-Q financial basics: http://bit.ly/1jskFFp
+  "Funny Money: How companies play games with numbers": http://slidesha.re/1jsjG8c
+
+Measuring up: receivables
+  Accounts receivable: money owed to the company, generally by customers
+  Big swings in dollar terms or as a percent of revenue
+  Collectability
+  Concentration of risk (risk factors section)
+  Footnotes
+    Rising accounts receivable should mean rising delinquencies (amounts past due for 90 days)
+    Company may be hiding uncollectable sales
+
+Measuring up: payables
+  Accounts payable: money the company owes, generally to suppliers
+    Profitable company with rapidly increasing accounts payable implies the company may not be paying its bills
+
+  Bottom line:
+    It's all relative
+      3 percent increase in revenues, but what's happening with net income, receivables, etc.?
+    It's about change over time
+      Big spikes
+      Sudden drops
+    Check the details
+      Has the change been disclosed?
+      Is it a related party transaction?
+
+Measuring up: gaming sales
+  Sales are supposed to be recorded in the quarter that the goods/services are delivered if payment is likely to be received
+  Possible games:
+    Recognizing sales too soon
+      "Accelerating" sales made early one quarter so they count for the prior quarter
+      Recognizing multi-year contracts all at once
+    Recognizing sales too late
+      Recording them early the following quarter, if this quarter is already going well
+
+Watch out when a company buys one of its major distributors
+
+Measuring up: cookie jars
+  Reserves account for expected future costs
+    Some percentage of customers won't pay their bills
+    Inventories become obsolete, spoil or otherwise lose value
+  Reserve math
+    Establishing a reserve reduces income (profits)
+    Reversing part or all of a reserve increases income (profits) on paper
+  Cookie-jar accounting
+    "Releasing" reserves to generate income
+    Artificially inflating reserves for later release
+
+Measuring up: more fun
+  Manipulating expenses
+  Manipulating inventories
+  Rearranging deck chairs
+    Changing how you categorize sales from quarter to quarter to make them harder to compare
+  Endless adjustments/updates
+  Ballooning debt with little financial growth to show for it
+
+Arthrocare example (https://app.seclive.com/#f/cc0af284)
+  ArthroCare Spine segment revenues for Sept. 30 quarter:
+    9 percent of total in 2006
+    15 percent of total in 2007
+  Extremely competitive market for spinal devices
+  Competitors are bigger and well-funded
+    Johnson & Johnson
+    Striker
+  Kickback allegations
+  Bought distributor
+    Secret board vote at 11:15 p.m. on Dec. 31
+    "Parked" millions of dollars in merchandize with distributors
+      $37 million in sales to one distributor, but only $50,000 in _net_ sales
+  Several executives tried or facing trial, including CEO
+
+Red flag factories: "soft tells"
+  When red flags start multiplying, watch out
+
+Red flag factories: the filings
+  8-K, 10-K, 10-Q
+    Auditor changes
+    Director departures
+      Letters to the board--often fun reading
+    Litigation and regulatory action
+  10-K
+    Auditor's note
+  Proxy
+    Auditor fees
+      Especially fees that aren't for audits
+  Other
+    SEC staff comment letters
+      Delayed by several weeks/months, but still useful
+      Also gives you cover--SEC is asking questions, so you're just checking
+
+Red flags: auditor oddities
+  Big company, small auditor
+  Audit vs. consulting fees
+  Sudden departures
+  Saying there were no substantial disagreements is fiction
+    "Substantial disagreements" is very narrowly defined
+
+Red flags: next steps
+  PCAOB (Public Company Accounting Oversight Board): http://pcaobus.org/
+    Audits auditors
+    Insight into accounting firm's quality
+    Audit clients usually not named
+  Always call departing directors, especially if there's a letter
+  Short interest
+    If many investors are selling the shares short, why?
+
+

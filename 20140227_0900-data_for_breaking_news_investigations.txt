@@ -1,0 +1,45 @@
+This just in: data for breaking news investigations
+http://ire.org/events-and-training/event/973/1234/
+
+Justin Fenton, Baltimore Sun
+  Twitter is much more useful than Facebook for searching breaking news events
+    Use the desktop site since it doesn't auto-refresh
+      Just lets you know how many updates there are and lets you show them whenever
+    Be broad when you search
+      "shooting" won't catch "shot"
+      "Get anything people are possibly saying"
+      "RIP" won't match "R.I.P."
+      Search names, usernames of victims
+  Screenshot everything--no guarantee what you see now will be there later
+    Many things get taken down
+  Arrest records
+  Wage garnishments
+  File records requests as soon as the event happens
+    Yelling at people asking for it isn't good enough
+  LexisNexis lists lots of email addresses and cell phone numbers now
+
+Chris Keller, KPCC/Southern California Public Radio
+  Gather sources ahead of time
+    Who will be useful?
+    How will/do various officials respond to situations?
+    Organize this so people in your newsroom can use it easily.
+  Get useful lists for specific events
+    Infrastructure
+      Utilities
+      Shelter
+      Transportation
+    Demographics
+  Consider a dashboard/automated alert system
+    If you can't find one, build one
+  Find a way to present timelines/chronological information
+    Gives you a logical way to organize the information you have
+    Useful internally, but also handy for audience
+    Tabletop comes in handy for this so multiple people can edit it
+  Recurring public interactives give you some structure
+    Abstract out development for things you'll do over and over again
+    Focus on what's new about this event and on the human angle
+  "Be prepared, run through scenarios because they're fun, and horde information."
+  Searchstagram: http://searchstagram.chrislkeller.com/
+
+Jaimi Dowdell, IRE
+  OSHA safety inspections also are handy to have around in case something happens at a construction site
