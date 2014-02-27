@@ -1,0 +1,51 @@
+Dig into business with data investigations
+http://ire.org/events-and-training/event/973/1232/
+
+Rob Barry, The Wall Street Journal
+  Challenges covering businesses
+    Not subject to public records requests
+    Don't have to talk
+    Pay lots of money to good lawyers, PR
+    Control the world
+    Data often isn't free of charge
+  Basic tools
+    Accurint, LexisNexis, etc.
+      Wide range of public records on all types of businesses
+      Handy for finding employees and contact information
+      Also contains:
+        Executive compensation
+        State license filings
+        News archives
+      Expensive, but many news organizations have access.
+    S&P Capital IQ
+      Detailed information about publicly traded companies
+      Screen for companies across wide array of events
+      Bloomberg Terminal competitor
+      Lets you build large lists of companies and events to reach out to for stories
+    PACER
+      Almost all publicly available documents relating to federal civil and bankruptcy cases
+      Accounts are free
+      Up to $15 of searches per quarter also are free
+      Search is terrible and expensive
+    Other basic resources
+      Local/state license records
+      GuideStar
+      LionShares
+        Corporate holdings (who owns what?)
+      Property tax records
+      Campaign finance and lobbying records (state and federal)
+    SEC
+      Since 2004: nearly 10 million filings, more than 400,000 companies and individuals
+      You can download everything from EDGAR at once
+        Can let you run really interesting analyses
+          Example: What material news filings (8-K) were followed by major drops in stock price?
+          Example: Keep track of all trades by corporate insiders
+      Standard filing format: XBRL
+        Extensible Business Reporting Language
+        XML-based
+
+Phil Mattera, Good Jobs First
+  New tool: http://www.goodjobsfirst.org/subsidy-tracker
+  Tagged tens of thousands of corporate entities by what their parents are
+  Researched history of especially large deals
+  Useful how-to on corporate research: http://www.corp-research.org/howto
