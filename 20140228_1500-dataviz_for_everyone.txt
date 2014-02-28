@@ -1,0 +1,60 @@
+DataViz for everyone: A practical guide to going responsive
+http://ire.org/events-and-training/event/973/1134/
+
+Chris Amico, Glass Eye Media
+  Some assumptions:
+    Building for the Web (not a native app, etc.)
+    Using HTML, CSS, JS (not Flash, Objective-C, etc.)
+  Four basic approaches
+    HTML
+      Reflows content decently well, especially simpler stuff
+    SVG
+      Easy to add interactivity
+      Every element still has at least one DOM node associated with it, so this gets slow
+    Canvas
+      Useful for complicated images
+      Needs to redraw often
+        Overlays help get rid of some of this complexity
+    Image
+      No interactivity
+      Loads really quickly
+      "But using a static image feels like cheating..." -Chris
+      "If you ain't trying to cheat a little, you ain't likely to win much." -Richard Petty
+  Problem children:
+    Labels
+    Legends
+    Hover
+    Interaction
+    Tables
+    Wide graphics on a small screen (histograms, etc.)
+    Forms
+  Mobile-first is a habit that takes practice
+    Easier to scale up than to scale down
+
+Lena Groeger, ProPublica
+  Four strategies
+    Design an entirely new format for mobile
+      Takes the most time and effort
+      Can do redirects (to m., etc.) with JS or show one or the other with CSS
+    Show visualization in slightly different way while retaining some (but not all) information
+    ???
+    No special mobile view
+
+Ryan Pitts, CensusReporter
+  CensusReporter goal: make Census data easy for journalists
+  Geography profiles
+    Selected statistics to help you understand a place
+    Include a map, several charts, etc.
+    Very data-heavy
+  Combine JS and CSS
+    Combination of D3, jQuery, Underscore, media queries
+  Page includes the data as JSON
+    Postpone the decision of how to render the data as long as possible
+    Semantic chart <div> IDs make things obvious
+  Charting code knows to measure the <div> first to see how much room there is
+  gracefulType() is a function that makes a decision based on the screen size
+    Convert column charts to bar charts below a certain width, for example
+    Rearrange labels as this happens
+      Example: labels for bars within groups
+  Catch touch device interactions
+    Pay attention to what works with different kinds of touch events
