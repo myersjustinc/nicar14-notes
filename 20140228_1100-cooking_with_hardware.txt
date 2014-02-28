@@ -1,0 +1,19 @@
+Cooking with hardware
+http://ire.org/events-and-training/event/973/1138/
+
+http://teamblinky.tumblr.com/
+
+John Keefe, WNYC
+  Made his hoodie read the signal from his exercise heart rate monitor and blink with his heartbeat
+  Made a sort of VU meter/one-bar chart that shows Chartbeat traffic
+  Made a sleep monitor that he strapped to his arm
+
+Liza Stark, Parsons
+  Don't need wires to make a circuit
+    Can make conductive Play-Doh that works well ("Squishy Circuits")
+  Arduino
+    Small, $35 microcontroller/computer that lets you connect the physical and digital worlds
+    Developed for interaction designers, not engineers
+    Free development environment: http://arduino.cc/
+  Created some bend/pressure sensors for a welcome mat that says "Welcome" on the session's projector when people walk on it
+  Made a skin-conductance (stress-detecting) apron
