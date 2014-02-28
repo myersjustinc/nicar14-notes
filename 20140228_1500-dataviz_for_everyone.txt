@@ -30,6 +30,7 @@ Chris Amico, Glass Eye Media
     Forms
   Mobile-first is a habit that takes practice
     Easier to scale up than to scale down
+  For scatter plots and other things with eventually really small tap targets, some sort of Voronoi overlay can be useful to give the user some more flexibility.
 
 Lena Groeger, ProPublica
   Four strategies
