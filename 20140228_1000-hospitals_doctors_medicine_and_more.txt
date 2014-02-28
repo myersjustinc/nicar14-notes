@@ -95,3 +95,4 @@ Charles Ornstein, ProPublica
     Does that personally affect them?
   CMS Hospital Compare
     Example: https://data.medicare.gov/Hospital-Compare/Emergency-Department-Care-Measures/ee3i-x2ic
+  CMS will release pharmaceutical companies' payments to doctors as one large data set this fall pursuant to the Affordable Care Act.
