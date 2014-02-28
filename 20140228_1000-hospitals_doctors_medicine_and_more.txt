@@ -1,0 +1,97 @@
+Wading through the sea of data on hospitals, doctors, medicine and more
+http://ire.org/events-and-training/event/973/1203/
+
+Peter Eisler, USA Today
+  https://www.dropbox.com/s/f6w1hbxo2la5ocs/health%20care%20data%20slides.pdf
+  "Not everything that can be counted counts. Not everything that counts can be counted" -William Bruce Cameron
+    A data set is only as good as the reporting on which it's based.
+    Be careful with comparisons.
+  Checkups for doctors
+    Medicare Exclusions Database
+      http://exclusions.oig.hhs.gov/
+      Search for individuals and entities excluded from participation in Medicare, Medicaid and other federal health care programs
+      Can be based on billing fraud and/or inadequate quality of care
+      Also includes reinstatements--be sure to look for this
+      Officially known as LEIE
+    State medical boards
+      Transparency and approach vary widely from state to state
+        Federation of State Medical board has searchable data of all states' reported actions: http://www.fsmb.org/m_fpdc.html
+        Administrative hearing records and legal filings contain a ton of great information.
+          Ask whether there are administrative complaints.
+    National Practitioner Data Bank
+      NPDB Public Use File: http://www.npdb.hrsa.gov/resources/publicData.jsp
+      Does not include names or identifying info for individual physicians
+      Does include state licensure actions, malpractice payments, clinical privilege actions, etc.
+      Still useful
+        Can determine if state boards are reporting actions to NPDB as required
+        Can determine if state boards are taking actions when doctors lose clinical privileges
+        Can compile especially bad records on malpractice claims
+    Prescribing data
+      Medicare Part D prescription drug data
+        http://www.cms.gov/Medicare/Prescription-Drug-Coverage/PrescriptionDrugCovGenIn/PartDData.html
+        http://projects.propublica.org/checkup/
+      DEA ARCOS
+        Automation of Reports and Consolidated Orders System
+        http://www.deadiversion.usdoj.gov/arcos/
+        Show prescription rates for opiates and various other drugs by first three digits of ZIP code
+        Available by request only
+    Medicare Provider Charge Data
+      https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/
+      What do hospitals charge for various procedures?
+    Center for Medicare and Medicaid Services (CMS) Hospital Compare
+      http://www.medicare.gov/hospitalcompare/search.html
+      Find hospitals by name, city, county, state, ZIP code
+      Check results of patient surveys
+      Compare results of quality measures
+    http://hospitalinspections.org
+      From Association of Health Care Journalists
+      Inspections are done by states on behalf of CMS
+      Includes "deficiencies" (but not responses to those) cited against certain hospitals
+    Other hospital resources
+      Medicare claims data
+        Individual data redacted, but useful for hospital-level data
+      Lawsuits
+        State court databases
+        Courtlink
+      State HAI data
+        Health care associated infections
+        HAI Focus (http://haifocus.com/)
+          Collection and availablity varies by state, so be really careful when comparing between states
+    Nursing Home Compare
+      Searchable CMS database of inspection info, quality measures, penalties, staffing information for all Medicare/Medicaid-certified nursing homes
+    CMS Five-Star Quality Rating System data
+      Downloadable data on which quality measures are based
+    ProPublica Nursing Home Inspect
+      Search unredacted inspection reports
+    State nurse aid registries
+      Each state maintains a list to check certification, background of nurse assistants (certified nurse aids)
+    Other nursing home data
+      Medicare Exclusions Database again
+      State boards of nursing
+      State Medicaid Fraud Control Units
+        Each state has one in its attorney general's office
+        MFCU contacts in each state: http://www.namfcu.net/states
+
+Dan Keating, The Washington Post
+  http://prezi.com/vfciaikb2pdb/medical-stories-with-individual-patient-data/
+  Microdata
+    Census: each record is one survey filled out by someone
+    Medical: Each record is one patient
+      Demographics, diagnosis, procedures, costs, outcomes
+      Includes all kinds of great information, including what conditions the patient had on admission (so you know whether they picked something up in the hospital)
+  Healthcare Cost and Utilization Project
+    http://www.ahrq.gov/research/data/hcup/index.html
+    HCUPnet lets you do this analysis online
+  CDC WONDER mortality reports
+    Underlying causes of death based on:
+      Police reports
+      Autopsy reports
+      Death certificates
+  Medicare Limited Data Sets
+    Patient-level data that can be really useful
+
+Charles Ornstein, ProPublica
+  People know the health care system is crazy
+    Does that personally affect them?
+  CMS Hospital Compare
+    Example: https://data.medicare.gov/Hospital-Compare/Emergency-Department-Care-Measures/ee3i-x2ic
