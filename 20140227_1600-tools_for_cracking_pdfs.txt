@@ -1,0 +1,31 @@
+Tools for cracking PDFs
+http://ire.org/events-and-training/event/973/1226/
+
+Jeremy Merrill, The New York Times
+  Ask for just about anything other than a PDF first.
+    Seriously, just about anything else will be easier to deal with.
+  PDFs support attaching other files (i.e., raw data) as well, but nobody does this.
+    Tutorial you can send to agencies: http://youtu.be/CKDWr1h8Y9c
+  PDFs can have actual text in them or not
+    If actual text is in there, great!
+      Tabula (http://tabula.nerdpower.org/) and pdftotext (http://www.foolabs.com/xpdf/) only work in this case.
+    Otherwise, you'll have to use optical character recognition (OCR) of some sort.
+      This involves a program reading the images in the file and seeing what letters/numbers/etc. they look like.
+      Gets messy: Zeros often get mistaken for Os, etc.
+      Some more expensive tools work pretty well sometimes (e.g., Abbyy).
+      DocumentCloud also does this automatically with varying amounts of success.
+
+Edward Duncan, Raleigh Public Record
+  DocHive is meant for image-based PDFs.
+    It uses templates that specify the structure of the page, and the process is automated from that point.
+    Still in development
+      No GUI version available yet, but hopefully a Web-based one this weekend
+      Come to the Friday hands-on
+
+Mark Horvit, IRE
+  Also keep Cometdocs in mind: http://www.cometdocs.com/
+    Free accounts, but more capabilities available with premium accounts
+      $10/month, or free with IRE membership! Email jgreen@ire.org for details.
+  Zamzar: http://zamzar.com/
+    Try this and Cometdocs at the same time and see what works better.
+  IMPORTANT NOTE: Do not upload really sensitive documents (national security, personal privacy, etc.) to a Web-based service.
