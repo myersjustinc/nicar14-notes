@@ -1,0 +1,92 @@
+Finding great stories in not-so-great nonprofits
+http://ire.org/events-and-training/event/973/1136/
+
+Kendall Taggart, The Center for Investigative Reporting
+  http://slid.es/kendall/mining-nonprofit-data
+  America's Worst Charities
+    Someone noted that six very different charities all were listed at one address
+      Small house in Florida
+      All used same marketing firm
+    How many times does this happen?
+      Gathered 10 years' worth of fundraising data for several states
+    Simple way to strengthen your story: Go back in time.
+    Un-sexy, time-consuming steps
+      Get to know the flaws in your data
+        Ultimate guide: CARwash (http://jenster.com/carwash.pdf) by Jen LaFleur
+      Develop a solid methodology
+        Go from data to on-the-ground reporting and back again
+        Share your pproach with at least three experts (ideally including your harshest critic) before publication
+      Useful data-mining tools
+        SQLite: free and easy to install; comes with OS X
+        Use a database client (Navicat, SQLite plugin for Firefox)
+        OpenRefine
+  Form 990 basics
+    Get Ron Campbell's tipsheet on the 990 from IRE (http://ire.org/resource-center/tipsheets/3496/).
+    How much is the nonprofit spending on programs?
+      Program expenses: Form 990, Part IX, Line 25, Column B
+      Total expenses: Form 990, Part IX, Line 25, Column A
+    Be careful of accounting tricks
+      Gifts in kind (e.g., medical supplies sent abroad)
+        Form 990, Schedule F
+        Can just say what general kind of gift and what region it went to
+          Pretty opaque
+        Example: Following medical supplies to Guatemala
+          $40 million of goods going to one charity in Guatemala
+          Went there to see where it was going
+            One warehouse, private security
+      Joint cost allocations
+        Lets charities count telemarketing as an "educational program"
+          If they tell you anything educational on the call, it might count.
+          Form 990, Part IX, Line 26
+    Checklist of required schedules
+      Starts on page 3 of Part IV
+      Did you do business with a relative, give a loan to a director, etc.?
+    Governance
+      Part VI
+      How is the nonprofit managed?
+      Any relationship between board members, etc.?
+  Beyond the 990
+    State records
+      IRS initially determines tax-exempt status, but it's generally up to states after that.
+      Most states require any nonprofit raising money in that state--not just those based in that state--to register with a state agency.
+      States are more likely to have audit information
+        IRS audits relatively few (about 1 percent) of nonprofits
+    Disciplinary actions
+      http://charitysearch.apps.cironline.org/
+        Includes about 8,000 regulatory actions taken by states
+    IRS releases data now!
+      http://www.irs.gov/uac/SOI-Tax-Stats-Annual-Extract-of-Tax-Exempt-Organization-Financial-Data
+    Charity Checker: http://tampabay.com/charitychecker/widget
+  Story ideas
+    What nonprofits in your coverage area report high levels of tax-exempt bond proceeds?
+    What nonprofits have high professional fundraising fees?
+    What nonprofits have had lots of disciplinary actions but still raise money in your area?
+
+Luke Rosiak, citizenaudit.org
+  http://slid.es/lukerosiak/searchable-form-990s-with-citizenaudit-org
+  The competition
+    GuideStar keeps putting more behind a paywall
+    Foundation Center transcribes grants, but not comprehensively
+  What CitizenAudit has:
+    10 years of PDFs for every filer, obtained monthly from the IRS on DVDs and posted online.
+      Even though many file electronically, they specifically make them images
+    OCR'd four years' worth of 990s so they're fully text-searchable
+    Simple structured-data downloads for IRS extracts they've made available (see Kendall's note above)
+  Just search for any text in the 990
+  Find funders
+    Nonprofits don't have to disclose who gives to them, but they do disclose who they give to
+    CitizenAudit has started putting these links together
+      Don't just need to see one link of where the money goes--you can see pass-through orgs.
+  Use this for routine backgrounding
+    The Form 990 is a thorough disclosure with lots of interesting things.
+    Active community members often show up in these.
+      Use it even when you're not writing specifically about nonprofits.
+  A person could be paid by several supposedly unrelated charities
+    Look up people on CitizenAudit
+  For developers:
+    Database dumps of 10 years' worth of links to PDFs and total assets
+    IRS extracts in simplified formats
+    API lets you pass in an EIN and get back JSON
+      Key and mercy required
+  Went through a Sunlight grant to get this off the ground
+    Now paying out of pocket to help maintain this service
