@@ -1,0 +1,76 @@
+Examining prescribing patterns
+http://ire.org/events-and-training/event/973/1141/
+
+Jennifer LaFleur, The Center for Investigative Reporting
+Charles Ornstein, ProPublica
+
+https://projects.propublica.org/checkup/
+
+Prescription data
+  Pharmaceutical companies buy it through middlemen who buy it from pharmacies
+  Middlemen would not sell it to ProPublica for any price
+  Went with Medicare data instead
+    One out of every four prescriptions in U.S.
+    Consistently handled across country
+    FOIA-able
+
+FOIA process
+  Found list of what's gathered on ResDAC (resdac.org)
+    Did not retrieve data from ResDAC since they require you not to match with individual doctors
+  Worked with Center for Medicare and Medicaid Services (CMS) officials early and often to craft request
+    Met with more than a dozen CMS officials
+  Know what you're actually interested in
+    Lets you negotiate what you'll allow to be redacted
+    "I need this, but I can live without this."
+
+Medicare prescribing data
+  Prescribing data by provider ID from 2007 to 2010 (later included 2011)
+  For each prescriber and drug:
+    Total number of claims
+    Retail cost of drug (by brand and National Drug Code)
+    Days of supply
+    Number of units (pills or ounces)
+  Prescribing data for patients 65 and older
+  CMS did some additional analysis for ProPublica that they couldn't do themselves due to redactions
+  Received data in SAS files
+    Read in SPSS, loaded onto SQL server
+    Reporters could use whatever SQL clients they wanted
+  CMS included unique IDs for prescribers
+    Provided separate lookup table linking that to NPI and DEA IDs
+
+Beyond Part D dta
+  CMS NPI registration data is available on website to ID doctors
+  DEA has list of registered prescribers, but they don't sell it
+    National Technical Information Service does, however
+  Data from First Databank helped categorize drugs
+  Data from American Geriatric Society on drugs dangerous to seniors (Beers)
+  Scraped drug information sites for top drugs
+
+Medicare prescribing data
+  Talked to many experts about how to best examine the data and develop methodologies
+  Within categories, did crosstabs to look for doctors who did not follow mattern
+    Prescribed at rates more than 2 standard deviations from mean for category
+  Talked to those who prescribed high amounts or in unusual ways
+
+What ProPublica found
+  Medicare's failure to keep watch over Part D enabled:
+    Inappropriate and risky prescribing
+    Billions of dollars in waste
+    Fraud
+  Also found clear signs that doctors who had relationships with pharmaceutical companies prescribed more name-brand drugs
+
+Problems
+  Some prescriptions from other physicians within a clinic or practice were attributed to one physician.
+  In some cases, pharmacies entered the wrong provider ID.
+  In some cases, prescriptions were attributed to dummy prescribers.
+
+Other prescribing data
+  State Medicaid prescription data
+  U.S. Department of Veterans Affairs
+
+New in 2014
+  CMS will release new data on:
+    Prescribing in Part D for 2012
+    Physician payments in Medicare Part B
+    Pharmaceutical and medical device company payments to doctors
+      "So far we have data on 15 drug companies and what they pay. You will have data on _every_ drug company and what they pay." -Charles
