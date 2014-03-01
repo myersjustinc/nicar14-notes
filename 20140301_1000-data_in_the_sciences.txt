@@ -1,0 +1,69 @@
+A quick trip through data in the sciences
+http://ire.org/events-and-training/event/973/1223/
+
+Carolyn Lauzon, AAAS Science and Technology Policy Fellow
+  Finding bad data in medical images
+  Garbage in, garbage out
+    So is the input good/useful?
+  Input: MRI
+    About 30 full-head images
+    800 slices
+    50,000,000 pixels
+  How do you define "good"?
+    Boxplots help you see outliers
+    Compare this data set's boxplot with the group/overall boxplot (or a standard/ideal boxplot, if you have one)
+    Split up the brain into 25 regions and showed the boxplot comparisons as small multiples
+      Easy to tell what's weird at a glance
+
+Kathleen Ratcliff, AAAS Science and Technology Policy Fellow
+  Using math to explain nature
+  First step when learning about an unfamiliar data set: Plot it.
+    What does it look like?
+      Linear growth (steady)
+      Exponential growth (rate of growth increasing exponentially)
+      Sigmoid growth (limited growth--picks up and then levels off)
+    Remember to see what it looks like with both linear and logarithmic y-axes.
+
+Cynthia Hsu, AAAS Science and Technology Policy Fellow
+  Quantifying and relating spatial patterns
+  Insects kill each other two different ways
+    Eating each other
+    Laying their eggs inside or on top of each other
+  First law of geography: "Everything is related to everything else, but near things are more related than distant things." -Waldo Tobler
+  Translating patterns into math: pretty similar to translating it into words
+    Grammar is different, symbols are different, but concepts are pretty similar.
+  Calculate gamma (semi-variance) to get a variogram
+    Afterward, see what different models look like to determine what fits best
+      "Shopping at the model store"
+      "Essentially, all models are wrong, but some are useful." -George E.P. Box, Norman R. Draper
+
+Beth Duckles, AAAS Science and Technology Policy Fellow
+  Qualitative data
+  First and most important tool: Listen!
+    People will tell you so much if you just listen to them and ask good questions.
+  Take notes.
+    Current project has about 1,000 pages of field notes
+  Do analysis as you go.
+    Take notes about how your data looks so far
+    What is standing out to you while you're in the thick of it?
+  If it's not messy, you're doing it wrong.
+    Make some order out of the mess, but do that later.
+    If there are contradictions or mistakes, that's fine--it's still data, and it still gives you something to think about.
+  Think like an archaeologist.
+    Dig, but don't become too attached to any particular place.
+    You don't necessarily know what the questions are when you start.
+  Go in circles.
+    In other words, iterate!
+  Tools
+    Atlas.TI, MaxQDA, NVIVO
+      Coding and intercoder reliability
+      QCA/fuzzy sets
+    Old school: highlighters and Post-It notes
+      Lulu for publishing
+      Personal indexing
+    Scrivener
+      Others prefer Evernote
+    Zotero
+      Automatic citation generation and screenshot tagging
+
+Sarah Cohen, The New York Times
