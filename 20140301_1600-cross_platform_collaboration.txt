@@ -1,0 +1,94 @@
+Cross-platform collaboration for data projects
+http://ire.org/events-and-training/event/973/1240/
+
+Lorie Hearn, inewsource
+  inewsource's platforms: television, radio, Web
+    Partly due to frequent work with KPBS
+      San Diego area's NPR and PBS member station
+  Some places in California pay a specific extra property tax (Mello-Roos) to handle school-related infrastructure
+    Included about 250 districts in and around San Diego
+    How much was that helping?
+    What was the difference between what people on just opposite sides of the street or canyon were paying?
+    Rolling investigation
+      Get data
+      Start with explanatory pieces
+      Get community involved
+      Explain how taxes are assessed
+      Keep going deeper into the story
+        "Keep peeling the layers off the onion"
+    How are taxes spent?
+      Looked at thousands of invoices
+        Consultants
+        Garbage disposal
+        Catered lunches
+        Administrative building
+    Helped produce pieces both for TV and radio
+    Lessons learned
+      Map of property taxes loaded really slowly
+      Every platform requires different storytelling
+      Think about your partners, whose needs are your needs
+      Get buy-in from graphics experts and animation experts
+      Audiences:
+        Radio: Tell me.
+        TV: Show me.
+
+Josh Kleinbaum, NBC Owned Television Stations group
+  Anatomy of a cross-platform project: 50th anniversary of the JFK assassination
+    Goal: Create a rich, interactive experience for the Dallas-Fort Worth station around the anniversary
+      Decided to focus on mobile
+    Questions:
+      What do we have that nobody else does?
+        Great archival video
+          Station covered JFK's trip to Dallas and Fort Worth even before the assassination.
+          Had video from the moment Air Force One landed until the motorcade left and beyond (LBJ's swearing in, Oswald's assassination)
+      How can we leverage it?
+      Who is the audience?
+        Existing readers and viewers
+        JFK buffs
+        Expected "assassination tourists"
+        How do we reach them?
+          Help people consume that archival video from anywhere
+    Building the experience
+      Two key navigational elements
+        Scrollable timeline
+          Let user navigate by date and time
+          Show events in chronological order
+        Interactives maps
+          One for the motorcade from Love Field to Parkland Memorial Hospital
+          One for Lee Harvey Oswald's travel from the book depository to the Texas Theater
+          Didn't end up using standard Google map
+            Wanted additional functionality (insets, etc.)
+            Current streets aren't the same as in 1963
+    Collaboration and organization: Google spreadsheet
+      Made it easy for teams in Dallas and New York City to keep track of content and keep things on schedule
+    Cross-platform experience on the anniversary
+      Three-hour broadcast special using archival content
+      Livestreamed entire show in app and on desktop site
+      JFK 50 app reached No. 17 in iTunes
+        Only app from a local news organization in the top 50
+    Five rules of the road
+      Know your audience and what platform it uses, and plan your project around that. More than half of our audience is mobile, but data projects often are not mobile-friendly.
+      Plan ahead. The data person/team should be involved in the project as early as possible.
+      Use shared tools such as Google Docs to stay organized with your collaborators.
+      Organize your data. Even for a project like JFK 50, which isn't data-centric, keeping our content well-organized and well-structured made it much easier to tell a meaningful story.
+      When collaborating on a project, give everyone a sense of ownership.
+
+John Walton, BBC Visual Journalism
+  Profile of National Health Service in winter
+    http://www.bbc.com/nhswinter
+    Patient and ambulance wait times, etc.
+  Best piece of advice: Get everyone involved early.
+  Obtained data in two sets from NHS
+    Daily emergency room statistics (published weekly)
+    Special winter situation reports
+  Maintained dedicated social media channels for the project
+  Had plenty of visualization-heavy pages
+    Some of the same concerns as CensusReporter: How does this work on different screens?
+  What we learned
+    Start in the same place
+    Commit to the same goal
+    What is your question?
+    What resources are needed?
+    What do you do with all of the content?
+  Ought to have come up with a better archival strategy
+    Had to balance that after the fact with the problem of not wanting to change the landing page URL
