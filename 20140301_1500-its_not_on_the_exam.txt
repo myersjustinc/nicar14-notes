@@ -1,0 +1,87 @@
+It's not on the exam: Exploring data beyond standardized tests on the education beat
+http://ire.org/events-and-training/event/973/1197/
+
+Meredith Broussard, Temple University
+  The story discovery engine: artificial intelligence for public affairs reporting
+    AI is not robots taking over the world
+    Real life is reporters having computers
+      This causes constraints
+    Journalists' work is hard!
+    Rather than having a program do all of your work for you, have it help accelerate your investigations.
+    Example: Are there enough books in schools?
+      The public school system
+        Standards
+          Federal
+          State
+          Local
+        Curriculum materials
+          Books that implement these standards
+          Published by one of a few big publishers
+            Houghton Mifflin Harcourt had $1.3 million of revenue in 2012
+              35 percent market share
+            Publishers make the books, write the tests, grade the tests
+      Expert system
+        Type of AI construct
+          Human expert adds content to a knowledge base
+          Knowledge base connects to an inference engine
+          Non-expert user can query the inference engine to access knowledge base content
+      http://stackedup.org/: look up a (Philadelphia) school and find details about whether it has enough books, etc.
+        System computes this for every grade in each of 241 schools
+
+Coulter Jones, WNYC
+  SchoolBook
+    Data on 1,800 New York City public schools
+    Compare schools against similar schools
+    Designed with parents' school choice in mind
+    Doesn't easily answer all the questions parents have about their schools
+      What is a school?
+      How does the system work?
+      What's successful?
+      etc.
+  Cover schools like communities, not like grade factories
+    Seek out different data, or use a different lens for the same data.
+    Get around the "culture war" of education policy, and cover what parents want to know.
+  Attendance
+    Low attendance on snowy days, Lunar New Year
+    Parents make conscious decisions regardless of schools' plans
+    Federal and state funding formulas often depend on attendance
+      Some schools game the system
+    NYC reports attendance for every school on every day
+  Schedule
+    When does school start and end?
+    When is lunch?
+    When are after-school programs?
+    Who makes those decisions?
+    How does that affect learning and other stuff?
+    NYC DOE claimed not to have schedule data easily available
+      Scraped it instead
+    Provided snapshot of daily parental decisions and other issues
+  Nearby environmental quality
+    Safety (crime, traffic accidents)
+    Health (air quality, EPA data)
+    Area type (zoning, nearby business licenses)
+  Getting to school
+    When and where do kids get hit by cars and trucks?
+    Where are crossing guards?
+    Compared accidents to similar accidents involving adults getting hit
+    55 percent of all NYC streets are within one-quarter mile of a school
+      75 percent in Manhattan
+    How else do kids get to school?
+      School buses
+        Who has the contract?
+        Who are the drivers?
+          Accident reports
+            Obtained the form bus drivers fill out afterward
+          Criminal histories
+  Safety of school buildings
+    "On Shaky Ground"
+      California has extra earthquake-related building codes for schools
+        How's compliance?
+    Inspections
+    Complaints
+      Who handles them?
+    How does something get fixed?
+      How long does this take?
+    Health violations
+    Neighboring buildings
+      Rats in NYC
