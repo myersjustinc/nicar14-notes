@@ -1,0 +1,47 @@
+Political framing: Computational analysis of rhetoric in large text datasets
+http://ire.org/events-and-training/event/973/1135/
+
+Al Johri, Northwestern University
+Dhrumil Mehta
+
+Goal: Use machine learning and natural language processing to conduct analysis of data that can help improve reporting and find stories
+
+Motivation: George Lakoff and conceptual metaphors
+  Metaphors underlie a lot of language
+    Performance in association football
+    War in American football
+    "Time is money"
+    Crime in immigration debate
+      People can't literally be "illegal"
+      Jobs can't literally be "stolen"
+  Frame
+    A net of words that models a stereotypical scenario
+      All of these words are intimately related
+    Wrote a word mining Wordnet 2.1 for words related to a frame
+      e.g., "carrying", "robbing", "capturing", "circumstances" for crime
+      Does this by asking some questions
+        "Does this count as crime? Does that count as crime?"
+    Interested in what frames occur in political rhetoric
+      Specifically from the Congressional Record
+
+Data set: 15 years' of speeches from the U.S. House of Representatives and U.S. Senate
+  Mined from the Sunlight Foundation's Capitol Words API (http://capitolwords.org/api/1/)
+  10,000 speeches per topic for seven topics
+
+Multinomial Naïve Bayes Classifier
+  TF-IDF-based multinomial naïve Bayes
+  Approximately 70 percent accuracy (without boosting) to classify a novel speech
+    Classification by chance among seven topics would be 14%, so this is pretty good
+    20-fold cross-validation to determine accuracy figure
+
+What's innovative?
+  You traditionally would train a classifier on a set of speeches (units of text) to classify a novel speech (same type of unit of text) into the correct category.
+  Instead, they feed rhetorical frames into the classifier to see what frames are correlated.
+  Example: Not only is crime rhetoric used unusually often in immigration speeches, but it also is much more common in Republicans' speeches than in Democrats' speeches.
+
+The vision:
+  Do computational rhetorical analysis with any deliberative body at any level of government
+  Compare and contrast rhetoric of different parties
+  Follow particular politicians' rhetoric
+  Analyze changes over time and find key pivot points (e.g., Sept. 11 attacks)
+  Cross-reference with campaign finance data, voting behavior data, etc.
