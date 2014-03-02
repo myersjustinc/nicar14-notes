@@ -1,0 +1,47 @@
+What's the deal with data science?
+http://ire.org/events-and-training/event/973/1230/
+
+Chase Davis, The New York Times
+Mark Hansen, Columbia University Graduate School of Journalism
+
+Data
+  How do we define it?
+  How do we know we're in its presence?
+  What kinds of substances or phenomena or objects do they represent?
+  Lots of definitions if you search for them
+    Many tech/math/statistics definitions
+    Humanities refer to data versus capta
+      "Capta is 'taken' actively while data is assumed to be a 'given' able to be recorded and observed"
+    "Big Data" refers to lots of "volume, velocity and variety"
+  What are the politics and ethics around data collection?
+
+Data science
+  Started in industry--sort of a cross between computer science and statistics
+  http://radar.oreilly.com/2011/09/building-data-science-teams.html#what-makes-data-scientist
+  "Weird kind of turf battle" between CS and statistics departments at universities when creating data science programs
+
+Data literacy
+  Functional literacy
+    How do we do this?
+  Critical literacy
+    How is data a cultural artifact?
+    Design cultures
+    Use contexts
+  Rhetorical literacy
+    How do we talk about data?
+    Persuasion
+    Deliberation
+    Reflection
+
+Software is a model of the world that makes an argument about the world.
+
+Ask questions at a completely different scale than you could before!
+  "the wholesale theft of cool techniques by people way smarter than me" -Chase
+
+A reporter's article is structured very differently than a computer scientist's paper.
+  One suggests a form of the truth; the other suggests an interesting technique and leaves it at that.
+
+In academe there's a tendency to use traditional data sets up to several decades old because they're familiar, and results can be compared.
+  In journalism there's "a constant newness" that makes it necessary to always question your findings.
+
+Try reframing some of your explanations in terms of geometry, which often is more intuitive to the layperson.
