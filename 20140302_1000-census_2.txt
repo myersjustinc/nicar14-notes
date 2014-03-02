@@ -1,0 +1,102 @@
+Census II: Going beyond the basics
+http://ire.org/events-and-training/event/973/1114/
+
+Ronald Campbell
+  Microdata: the secret sauce of Census
+    http://ire.org/resource-center/tipsheets/4024/
+  Enter the matrix
+    Census asks questions and breaks down the answers in one or more ways.
+    If you want answers broken down any other way, though, you can use microdata.
+      Reduced sample size
+      Potentially large margins of error
+      Can be difficult to work with
+      Tough to explain to editors and ultimately your audience
+    Hard part
+      Download the data
+        U.S. Census Bureau (recent years only)
+        IPUMS (since 1800s, harmonized)
+      Analyze the data
+        Using a statistical package
+        IPUMS online analysis tool
+          https://usa.ipums.org/usa/sda/
+
+Paul Overberg, USA Today
+  ACS: a growing ecosystem
+    Special Census retallies
+      Customers (agencies, etc.) pay to have this done
+    Census-baked data for feds
+    ACS data enhanced by third parties
+  Examples
+    Access to fresh food
+      USDA wanted to focus on food deserts
+      Got ACS data on low-income populations
+      Got all supermarkets' locations
+      Built mapping tool
+    People moving in short term
+      County-to-county commuting data
+      Five-year span
+      Net commuters from one county into another (out minus in)
+      Related file: commuter-adjusted daytime population
+        Once commuters have arrived, what is the new population?
+        Important for transit, evacuation/emergency planning, etc.
+    People moving in long term
+      County to county moving data
+      Again, net movers from one county into another
+      In 2007-2011, this also is broken down by education and income
+    Local housing conditions
+      HUD Comprehensive Housing Affordability Strategy data
+      Retabulates ACS income and housing data to show areas with housing problems
+        Lack full kitchen or plumbing
+        Crowded (more than one person living in each room)
+        Severely crowded (more than 1.5 people living in each room)
+        Cost-burdened (costs more than 30 percent of monthly income)
+        Severely cost-burdened (costs more than 50 percent of monthly income)
+        CHAS table generator: http://huduser.org/portal/datasets/cp/CHAS/data_querytool_chas.html
+        CHAS data download: http://huduser.org/portal/datasets/cp/CHAS/data_download_chas.html
+      Housing affordability
+      Overcrowding
+      Neighborhoods making transitions
+      Local need/policy on housing subsidies
+    Market-rate rents
+      Annual HUD calculation
+      ACS data: recent movers who rent
+      50th percentile rent for cities, counties, metro areas
+      Sets housing vouchers: rental, rehab, etc.
+      http://huduser.org/portal/datasets/fmr/fmrs/docsys.html&data=fmr14
+    Housing program income limits
+      Based on family median income
+      HUD calculation
+      Sets eligibility for housing voucher programs
+      View or download
+      http://huduser.org/portal/datasets/il/il14/index.html
+    Poverty in small places
+      Census Bureau's Small-Area Income and Poverty Estimates
+      Annual data for small places
+      Model-based using ACS data
+      States use this to distribute local school aid
+      http://www.census.gov/did/www/saipe/data/interactive/
+    Voting-age citizen population
+      Citizen Voting-Age Population, as the Census Bureau calls it
+      Special ACS tally, 2008-2012
+      Tallied by race/ethnicity
+      Local voting boards use this
+      Find voting blocs, local assimilation, DREAMers
+    Local transportation planning
+      Census Transportation Planning Package
+      ACS retabulation
+      Contracted by DOT, all 50 states
+      Three-year and five-year version
+      Three sets of tables
+        Where workers live
+        Where workers work
+        Flows from home to work
+      Expanded tables
+      http://1.usa.gov/1grayR7
+      http://ctpp.transportation.org/
+      City/county profiles: http://ctpp.transportation.org/pages/profiles.aspx
+      Includes special hyperlocal geography: Transportation Analysis Zones
+        Often more granular than even census tracts
+        Of course, don't report on one of these by itself; aggregate several to make your own custom geometries
+    Workforce demographics
+      EEO special tally
+      http://www.census.gov/people/eeotabulation
