@@ -1,0 +1,158 @@
+How to deal with millions of documents without losing your mind (and time)
+http://ire.org/events-and-training/event/973/1243/
+
+Sebastian Mondial, Die Zeit
+
+Watch out for data privacy when you get documents with people's personal information
+  Know the law
+  Consider encryption
+
+Elevator pitch for non-believers
+  Everyone (including agencies) have become hoarders
+  Search makes it easier than simply putting stuff in folders
+  Disk is cheap, time is not
+  It's already too late not to do this
+  We still are promised AI to do some of this
+  Sooner or later you'll end up with a hard drive full of stuff anyway
+
+When you're searching/filtering, every match/exclusion counts
+  Brute-force comparison of each pair of files gets crazy.
+
+Keep a data diary!
+  Write down what you do!
+  Use flat text and time stamps
+  Reflect what kind of step (transformation, destruction, etc.) it is and label it
+  What would an undo look like?
+  Keep the notes _with_ the data for storage.
+
+Copying files isn't enough when you receive a hard drive of documents
+  You want to maintain the metadata that's kept within the file system.
+  Duplicate the hard drive using dedicated hardware
+    Write blockers, forensic equipment, etc. all have their uses
+    If you use a disk duplicator, PAY ATTENTION to which one is the source and which is the destination.
+      You only make this mistake once, since if you make it, you lose all of your source data.
+  Use the fastest hardware (HDs, interfaces, etc.) you and/or your company can afford.
+  Hidden and deleted data also is important!
+    All the more reason to copy the drive bit for bit (not just the files you can see on your computer)
+    Cheap thing to learn--used hard drives are cheap and often improperly wiped (if at all)
+
+Discover what is hidden
+  Undelete software is cheap/free
+  Recovery on a physical level is really expensive
+    "SSD recovery is currently witchcraft"
+    Don't believe people who say they can restore data from encrypted drives.
+
+Write block
+  Make sure the drive (or your copy of it) is mounted as read-only
+  Also can use a write blocker to be extra sure
+    Nice thing about some hardware write blockers: Can lie to the operating system by saying stuff can be written/edited
+    Some hard-drive enclosures include write blockers
+
+Air gap
+  You don't know what was on that machine
+    Viruses, other malware, etc.
+    Triggers that let others know when the files are accessed
+  Never connect your data analysis machine to the network!
+    If you really don't want to buy a second computer, consider
+
+Trees and hashes
+  A tree is how your file system hierarchically organizes its files
+  Know the possible issues:
+    Links (symbolic or hard)
+      References to one file from somewhere else
+      Make it a bit more complicated than just a basic tree
+    Some file systems have limits on what can be stored in the root (base) directory.
+    File name limits (remember 8.3?)
+    How hidden/system files are handled
+  A hash is a checksum--some fingerprint of the file's contents
+    Gives you some unique identifier for the file other than just its location in the filesystem
+    Makes it easier to detect duplicates, too!
+    Utilities
+      md5deep works recursively
+  Create a spreadsheet of files' paths and their corresponding hashes
+    Detect duplicates
+    Always know exactly what file you're talking about
+
+File system metadata
+  Creation date: When did this file get here?
+  Modification date: When was it last changed?
+  Last accessed date: When was it last used?
+    Print, move, copy, view, etc.
+    Only specifically handling this particular file--not just seeing it in the Finder or equivalent
+  Access rights
+  Owner
+  Read-only?
+  Archive?
+    Means it has not been backed up before
+  System?
+  Hidden?
+  Extended attributes
+    Just check Wikipedia
+  Quick shoutout for the "file" tool in Unix-based systems (including Macs!)
+    file <file name>
+    Regardless of what the name/extension _says_ it is, "file" tool analyzes the contents to determine (or at least guess) what it actually is.
+
+What do you do with old files?
+  Search for "abandonware" or "vintage software" to get old file viewers/editors
+  Many run in DOSBox, which is cross-platform DOS virtualization program
+
+What if it's a boot drive?
+  You can make a virtual machine run off of it, which means you can see what the user would have seen.
+
+Look at summary statistics of the files
+  What files/folders are the biggest?
+  What types of files are most common?
+  How old are the different files?
+  If you can search/filter images by EXIF data, filter by what device created the images.
+    Make/model (/serial number?)
+  Also consider filtering PDFs by what software created them.
+
+Archive extraction
+  If you have an email archive file (like an Outlook file), use some utility such as Emailchemy to extract all of the individual files/emails from it to make it easier to search with other tools.
+
+Quick way to detect searchable text in PDFs: Use pdffonts (from xpdf) to see whether any fonts are used in the document.
+
+Useful indexing/search tool: DT-Search
+  About $200
+  Windows
+
+What to do next
+  https://github.com/melix/jlangdetect
+    Detect language for each file
+  PIPI longstrings
+    What files share content?
+  Similarity
+    diff (file differences) utility
+  Stylometry
+    Whose writing styles are in the data set?
+  Ask on Quora
+  Annie
+    http://gate.ac.uk/sale/tao/splitch6.html#chap:annie
+  Freeling
+    http://nlp.lsi.upc.edu/freeling/demo/demo.php
+  Freebase
+    http://www.freebase.com/
+  OpenCalais
+  Overview
+  Just words
+    http://www.wordfrequency.info/free.asp
+  Summarize
+  Bayesian classifiers
+
+How can you fail?
+  Overwrite your source data
+    You're screwed if this happens--can't fix this.
+  Mix up columns
+    Inconsistent analysis sucks.
+  Interpret the data incorrectly
+    Get a second opinion.
+  Miss the obvious
+  Get fooled by a forgery
+  Aim too high
+    You won't do everything perfectly, especially when OCR's involved.
+
+Consider purging the metadata from the files before posting anything to the Web
+  Might still have information that incriminates someone else
+
+If you have "money, luck or both", you might be able to get "integrated e-discovery software" such as that used by attorneys.
+  Watch out, though, because some of these have time-limited licenses and prevent you from even seeing your previous analyses if your license lapses.
